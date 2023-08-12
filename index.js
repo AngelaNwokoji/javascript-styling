@@ -1,15 +1,31 @@
 
-const p = document.querySelectorAll('p');
-console.log('p')
+let allp = document.querySelectorAll('p');
+ 
+console.log(allp)
 
 
-p.forEach( (p) => {
-    p.style.color = 'blue'
-    p.style.padding ='20px'
-    p.style.fontSize = '40px'
-    p.style.border = '1px solid blue'
-    p.style.margin = '15px 30px'
-} )
+let p = document.querySelector('p');
+p.style.color = 'blue'
 
-const python= document.querySelector('python');
+allp.forEach(python => {
+    python.style.color = 'blue', python.style.border ='1px solid blue', python.style.fontSize = '30px', python.style.padding = '20px', python.style.margin = '30px' 
+
+    sql.style.border ='1px solid green', sql.style.color = 'green', sql.style.fontSize = '40px'
+
+    php.style.color = 'orange', php.style.border = '1px solid orange', php.style.fontSize = '35px'
+
+    java.style.color = 'black', java.style.border = '5px solid black', java.style.fontSize = '25px'
+
+    r.style.color = 'purple', r.style.border = '4px solid purple', r.style.fontSize = '20px'
+
+   swift.style.color = 'red', swift.style.border = '1px solid red', swift.style.fontsize = '30px' 
+
+    kotlin.style.color = 'brown ', kotlin.style.border = '1px solid brown', kotlin.style.fontSize = '45px'
+
+    cplus.style.color = 'violet', cplus.style.border = '8px solid violet'
+    
+});
+
+
+
 
